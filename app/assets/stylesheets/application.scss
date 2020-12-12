@@ -1,0 +1,386 @@
+/*
+ *= require_tree .
+ *= require_self
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+
+ body{
+   margin: 0;
+   font-family: "Kosugi Maru";
+   background-image: image-url("background.png");
+ }
+
+ p{
+   margin: 50px 0;
+ }
+
+ .mobile{
+   display: none;
+ }
+
+ .bold{
+   font-weight: bold;
+   font-size: 21px;
+ }
+
+/* フォントサイズ */
+ .first_section,
+ .second_section,
+ .third_section{
+   font-size: 20px;
+ }
+
+.top_image{
+  width: 100%;
+  height: 70vh;
+  background-image: image-url("Top_back.png");
+  text-align: center;
+  margin: 50px 0;
+}
+
+.top_image img{
+  width: 80%;
+  height: 100%;
+}
+
+.content_wrapper{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.content_inner{
+  width: 72%;
+}
+
+.side_wrapper{
+  width: 25%;
+  margin-left: 3%;
+}
+
+.side_inner,
+.side_inner_Vertical{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.side_inner img{
+  width: 100%;
+}
+
+.show_container{
+  padding-bottom: 50px;
+}
+
+
+/* footer */
+.footer_wrapper{
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .5);
+  background: white;
+  line-height: 60px;
+}
+
+.footer_wrapper p{
+  margin: 0;
+  text-align: center;
+}
+
+
+
+/* first section */
+.first_section_container,
+.second_section_container{
+  padding-top: 20px;
+}
+
+.first_section_wrapper,
+.second_section_wrapper{
+  display: flex;
+  margin-right: 2%;
+}
+
+
+
+.first_section h2,
+.forth_section h2,
+.fee_wrapper h2{
+  text-align: center;
+  font-size: 40px;
+}
+
+.h2_mobile{
+  display: none;
+}
+
+.forth_section h2,
+.fee_wrapper h2{
+  margin-top: 100px;
+}
+
+.first_section_image_wrapper,
+.second_section_image_wrapper{
+  width: 40%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+.small_pic img{
+  width: auto !important;
+  height: 230px;
+}
+
+.first_section_image_wrapper img,
+.second_section_image_wrapper img{
+  width: auto;
+  height: 230px;
+}
+
+.first_section_text_wrapper,
+.second_section_text_wrapper{
+  width: 40%;
+  margin-right: 10%;
+  text-align: center;
+  position: relative;
+  background: white;
+}
+
+.first_section_wrapper p,
+.second_section_wrapper p{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+.first_section_second .first_section_image_wrapper,
+.second_section_second .second_section_image_wrapper{
+  margin-left: 0;
+  margin-right: 10%;
+}
+
+.first_section_second .first_section_text_wrapper,
+.second_section_second .second_section_text_wrapper{
+  margin-left: 10%;
+  margin-right: 0;
+}
+
+
+/*`second_section */
+.second_section{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.second_section .text{
+  margin-bottom: 30px;
+}
+
+.second_section .text span{
+  font-weight: bold;
+  font-size: 23px;
+  text-decoration: underline;
+}
+
+.second_section .ad_wrapper{
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+
+.second_section .ad_wrapper a{
+  color: #0F88BD;
+}
+
+.arrow{
+  margin: 20px 0;
+}
+
+.fee_wrapper .fee_lower{
+  font-weight: bold;
+  font-size: 23px;
+  color: #D02D2D;
+}
+
+
+
+/* third_section */
+.third_section{
+  margin-top: 100px;
+}
+
+.third_section .example_text{
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.example_text_mobile{
+  display: none;
+}
+
+.third_section .stand_out{
+  font-size: 25px;
+  font-weight: bold;
+  color: #D02D2D;
+}
+
+.third_image_wrapper img{
+  width: 55%;
+}
+
+/*forth_section*/
+.fee_introduction_wrapper{
+  background: #ff847c;
+  color: white;
+  border-radius: 50%;
+  width: 80%;
+  padding: 5% 0;
+  margin: 30px auto;
+}
+
+.fee_introduction_wrapper p{
+  margin: 15px 0;
+}
+
+.fee_text{
+  text-decoration: underline;
+}
+
+.fee_high{
+  background: linear-gradient(-10deg, transparent, transparent 45%, black 40%, black 50%, transparent 51%, transparent);
+}
+
+.fee_low{
+  font-size: 30px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.forth_section_p span{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.five_min{
+  font-size: 25px;
+  font-weight: bold;
+  color: #D02D2D;
+  text-decoration: none !important;
+}
+
+
+/* six_section */
+.six_section{
+  margin-top: 100px;
+}
+
+
+@media(max-width: 670px){
+  .pc{
+    display: none;
+  }
+
+  .mobile{
+    display: block;
+  }
+
+  .top_image{
+    height: auto;
+  }
+
+  .top_image img{
+    width: 100%;
+  }
+
+  .first_section,
+  .second_section,
+  .third_section{
+    font-size: 18px;
+  }
+
+  .first_section h2,
+  .forth_section h2,
+  .fee_wrapper h2{
+    font-size: 30px;
+  }
+
+  .h2_mobile{
+    display: block;
+  }
+
+  .h2_pc{
+    display: none;
+  }
+
+  .side_wrapper{
+    display: none;
+  }
+
+  .content_wrapper{
+    width: 95%;
+  }
+
+  .content_inner{
+    width: 100%;
+  }
+
+  .first_section_image_wrapper,
+  .second_section_image_wrapper{
+    width: 50%;
+    margin-left: 0%;
+  }
+
+  .first_section_text_wrapper,
+  .second_section_text_wrapper{
+    width: 50%;
+    margin-right: 0%;
+    font-size: 15px;
+  }
+
+  .first_section_second .first_section_image_wrapper,
+  .second_section_second .second_section_image_wrapper{
+    margin-right: 0%;
+  }
+
+  .first_section_second .first_section_text_wrapper,
+  .second_section_second .second_section_text_wrapper{
+    margin-left: 0%;
+  }
+
+  .first_section_image_wrapper img,
+  .second_section_image_wrapper img{
+    width: 95%;
+    height: auto;
+  }
+
+  .first_section_wrapper,
+  .second_section_wrapper{
+    margin-right: 0;
+  }
+
+  .third_section .example_text{
+    display: none;
+  }
+
+  .example_text_mobile{
+    display: block;
+  }
+
+  .third_image_wrapper img{
+    width: 100%;
+  }
+
+  .fee_introduction_wrapper{
+    width: 100%;
+  }
+
+  .ad_wrapper_fee a img{
+    width: 100%;
+    height: auto;
+  }
+
+  .small_pic img{
+    height: 180px;
+  }
+}
