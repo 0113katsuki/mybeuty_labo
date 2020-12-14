@@ -275,10 +275,9 @@
 }
 
 .fee_low{
-  font-size: 50px;
+  font-size: 45px;
   font-style: italic;
   font-weight: bold;
-  padding: 5px 10px 5px 5px;
 }
 
 .show_point_wrapper{
@@ -411,7 +410,7 @@
   padding: 20px;
   text-align: left;
   margin-bottom: 20px;
-  font-family: normal;
+  line-height: 1.7;
 }
 
 .review_inner{
@@ -517,12 +516,15 @@
 }
 
 .guid_wrapper{
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .5);
   border-radius: 20px;
   padding: 30px 0;
   background: white;
   margin: 0 auto 50px;
   width: 60%;
+}
+
+.guid_wrapper .arrow{
+  margin: 20px 0 !important;
 }
 
 .guid{
