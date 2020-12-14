@@ -3,7 +3,10 @@
  *= require_self
  */
 
+ @import 'font-awesome-sprockets';
+ @import 'font-awesome';
  @import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+
 
  body{
    margin: 0;
@@ -202,12 +205,11 @@
 .second_section .text span{
   font-weight: bold;
   font-size: 23px;
-  text-decoration: underline;
 }
 
 .second_section .ad_wrapper{
   margin-bottom: 40px;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .second_section .ad_wrapper a{
@@ -273,22 +275,19 @@
 }
 
 .fee_low{
-  font-size: 30px;
+  font-size: 50px;
   font-style: italic;
-  text-decoration: underline;
-}
-
-.forth_section_p span{
   font-weight: bold;
-  text-decoration: underline;
+  padding: 5px 10px 5px 5px;
 }
 
 .show_point_wrapper{
-  background: white;
+  background: #FEE9E3;
   width: 65%;
   margin: 0 auto;
   padding: 50px 0;
   border-radius: 50px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .5);
 }
 
 .show_point_wrapper h3{
@@ -307,6 +306,233 @@
 .six_section{
   margin-top: 100px;
 }
+
+
+/* benefit */
+.benefits_container{
+  margin-bottom: 50px;
+}
+
+.benefit_container_text{
+  margin-bottom: 10px;
+  margin-top: 70px;
+}
+
+.benefits_container h2{
+  margin-top: 0;
+  text-decoration: underline;
+}
+
+.benefits_inner{
+  display: flex;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .5);
+  background: white;
+  border-radius: 20px;
+  width: 70%;
+  margin: 20px auto 0;
+  padding: 30px 10px;
+}
+
+.benefits_point_wrapper{
+  width: 20%;
+}
+
+
+.benefit_point_number{
+  font-size: 30px;
+  margin-top: 22px !important;
+}
+
+.benefit_content_wrapper{
+  width: 80%;
+  text-align: left;
+}
+
+.benefit_content_inner{
+  font-size: 25px;
+  color: #f7c873;
+  font-weight: bold;
+}
+
+.benefit_content_sub{
+  font-size: 15px;
+}
+
+.benefits_wrapper p{
+  margin: 10px 0;
+}
+
+
+/* 口コミ */
+.review_wrapper{
+  margin-top: 100px;
+}
+
+.review_text_wrapper{
+  margin: 0;
+}
+
+.review_modal{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.review_icon_wrapper{
+  width: 15%;
+  position: relative;
+}
+
+.review_icon_inner{
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+}
+
+.review_icon_inner_second{
+  right: 0;
+  margin-left: 0;
+  margin-right: 2%;
+}
+
+.review_icon_inner img{
+  height: 100%;
+
+}
+
+.review_content_wrapper{
+  width: 83%;
+  margin-left: 2%;
+}
+
+.review_content_wrapper p{
+  background: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+  font-family: normal;
+}
+
+.review_inner{
+  display: flex;
+}
+
+.review_inner_first{
+  margin-top: 0;
+}
+
+.review_wrapper .arrow{
+  margin: 30px 0 20px;
+}
+
+
+/* シーン */
+.scene_wrapper{
+  margin-top: 100px;
+}
+
+.scene_content_wrapper{
+  display: flex;
+}
+
+.scene_content_wrapper p{
+  margin: 0px;
+}
+
+
+.scene{
+  width: 30%;
+  margin: 0 1.5%;
+}
+
+.scene_text{
+  font-size: 23px;
+}
+
+.scene_inner{
+  height: 240px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+  background: #FDE9E3
+}
+
+.scene_inner i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.1;
+}
+
+.scene_content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  text-align: center;
+  font-size: 22px;
+}
+
+/*.scene{
+  width: 30%;
+  height: 240px;
+  margin: 0 1.4%;
+  border-radius: 50%;
+  border: 1px solid red;
+  position: relative;
+}
+
+.scene_inner{
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 100%;
+  text-align: center;
+}*/
+
+
+
+.kuwasikuha_wrapper p{
+  font-weight: bold;
+  font-size: 23px;
+  margin: 0 0 10px 0;
+}
+
+
+.marker{
+  background: linear-gradient(transparent 0%, #fcea90 0%);
+  font-weight: bold;
+}
+
+.ad_last_wrapper p{
+  margin: 0;
+}
+
+.ad_last_wrapper a img{
+  width: 100%;
+  height: auto;
+}
+
+.guid_wrapper{
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .5);
+  border-radius: 20px;
+  padding: 30px 0;
+  background: white;
+  margin: 0 auto 50px;
+  width: 60%;
+}
+
+.guid{
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+
+
 
 
 @media(max-width: 670px){
@@ -424,5 +650,50 @@
 
   .show_title_wrapper p{
     font-size: 20px;
+  }
+
+  .benefits_inner{
+    width: 95%;
+  }
+
+  .benefit_content_inner{
+    font-size: 22px;
+  }
+
+  .benefits_point_wrapper{
+    width: 15%;
+  }
+
+  .benefit_content_wrapper{
+    width: 85%;
+  }
+
+  .review_modal{
+    width: 98%;
+  }
+
+  .scene_content_wrapper{
+    display: block;
+  }
+
+  .scene{
+    width: 90%;
+    margin: 30px auto;
+  }
+
+  .scene_inner{
+    height: 250px;
+  }
+
+  .guid_wrapper{
+    width: 80%;
+  }
+
+  .guid_wrapper p{
+    margin: 0;
+  }
+
+  .second_section .ad_wrapper{
+    margin-bottom:  10px;
   }
 }
