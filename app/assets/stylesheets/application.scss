@@ -78,15 +78,49 @@
 
 .show_title_wrapper{
   position: absolute;
-  top: 12%;
-  right: 15%;
-  text-align: left;
+  top: 10%;
+  right: 12%;
+  text-align: right;
 }
 
 .show_title_wrapper p{
   margin: 13px 0 0 0;
   font-weight: bold;
   font-size: 38px;
+}
+
+.show_title_inner{
+  position: absolute;
+  bottom: -130px;
+  right: 20%;
+  border-radius: 50%;
+  padding: 30px;
+  background: #F6847D;
+  color: white;
+  text-align: center;
+}
+
+.show_title_inner::before{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  left: 10px;
+  bottom: 8px;
+  border-right: 20px solid #F6847D;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  transform: rotate(-45deg);
+}
+
+.show_title_inner p{
+  font-size: 25px;
+  margin: 0;
+}
+
+.show_title_inner span{
+  text-decoration: underline;
 }
 
 
@@ -266,6 +300,15 @@
   margin: 15px 0;
 }
 
+.fee_warning{
+  font-size: 12px;
+  width: 60%;
+}
+
+.fee_warning{
+  margin: 15px auto !important;
+}
+
 .fee_text{
   text-decoration: underline;
 }
@@ -283,7 +326,7 @@
 .show_point_wrapper{
   background: #FEE9E3;
   width: 65%;
-  margin: 0 auto;
+  margin: 70px auto;
   padding: 50px 0;
   border-radius: 50px;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .5);
@@ -428,7 +471,11 @@
 
 /* シーン */
 .scene_wrapper{
-  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.scene_wrapper .ad_wrapper{
+  margin-top: 30px;
 }
 
 .scene_content_wrapper{
@@ -454,7 +501,7 @@
   border-radius: 50%;
   position: relative;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
-  background: #FDE9E3
+  background: white;
 }
 
 .scene_inner i{
@@ -543,7 +590,7 @@
   }
 
   .mobile{
-    display: block;
+    display: inline-block;
   }
 
   .top_image{
@@ -646,8 +693,20 @@
   }
 
   .show_title_wrapper{
-    top: 10%;
-    right: 2%;
+    top: 2%;
+    right: 1%;
+  }
+
+  .show_title_inner{
+    bottom: -80px;
+    right: 0%;
+    padding: 20px 25px;
+  }
+
+  .show_title_inner p{
+    font-size: 15px !important;
+    width: 100%;
+    margin: 0 auto;
   }
 
   .show_title_wrapper p{
