@@ -1,7 +1,9 @@
 class BeautiesController < ApplicationController
 
   def show
-    @test = "テスト"
+  end
+
+  def show_second
   end
 
 end

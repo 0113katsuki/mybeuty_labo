@@ -5,12 +5,12 @@
 
  @import 'font-awesome-sprockets';
  @import 'font-awesome';
- @import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Kosugi&display=swap');
 
 
- body{
+ /*body{
    margin: 0;
-   font-family: "Kosugi Maru";
+   font-family: 'Sawarabi Gothic', sans-serif;
    background-image: image-url("background.png");
  }
 
@@ -25,10 +25,10 @@
  .bold{
    font-weight: bold;
    font-size: 21px;
- }
+ }*/
 
 /* フォントサイズ */
- .first_section,
+ /*.first_section,
  .second_section,
  .third_section{
    font-size: 20px;
@@ -121,12 +121,12 @@
 
 .show_title_inner span{
   text-decoration: underline;
-}
+}*/
 
 
 
 /* footer */
-.footer_wrapper{
+/*.footer_wrapper{
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .5);
   background: white;
   line-height: 60px;
@@ -135,12 +135,12 @@
 .footer_wrapper p{
   margin: 0;
   text-align: center;
-}
+}*/
 
 
 
 /* first section */
-.first_section_container,
+/*.first_section_container,
 .second_section_container{
   padding-top: 20px;
 }
@@ -199,8 +199,9 @@
   margin-right: 10%;
   text-align: center;
   position: relative;
-  background: #ffe9e3;
+  border: 1px solid black;
   font-size: 23px;
+  border-radius: 20px;
 }
 
 .first_section_wrapper p,
@@ -224,11 +225,11 @@
 .second_section_second .second_section_text_wrapper{
   margin-left: 10%;
   margin-right: 0;
-}
+}*/
 
 
 /*`second_section */
-.second_section{
+/*.second_section{
   margin-top: 50px;
   text-align: center;
 }
@@ -259,12 +260,12 @@
   font-weight: bold;
   font-size: 1.7rem;
   color: #D02D2D;
-}
+}*/
 
 
 
 /* third_section */
-.third_section{
+/*.third_section{
   margin-top: 100px;
 }
 
@@ -283,12 +284,12 @@
   color: #D02D2D;
 }
 
-.third_image_wrapper img{
+.seruraito_image_wrapper img{
   width: 55%;
-}
+}*/
 
 /*forth_section*/
-.fee_introduction_wrapper{
+/*.fee_introduction_wrapper{
   background: #ff847c;
   color: white;
   border-radius: 50%;
@@ -343,17 +344,17 @@
   font-weight: bold;
   color: #D02D2D;
   text-decoration: none !important;
-}
+}*/
 
 
 /* six_section */
-.six_section{
+/*.six_section{
   margin-top: 100px;
-}
+}*/
 
 
 /* benefit */
-.benefits_container{
+/*.benefits_container{
   margin-bottom: 50px;
 }
 
@@ -404,11 +405,11 @@
 
 .benefits_wrapper p{
   margin: 10px 0;
-}
+}*/
 
 
 /* 口コミ */
-.review_wrapper{
+/*.review_wrapper{
   margin-top: 100px;
 }
 
@@ -468,11 +469,11 @@
 
 .review_wrapper .arrow{
   margin: 30px 0 20px;
-}
+}*/
 
 
 /* シーン */
-.scene_wrapper{
+/*.scene_wrapper{
   margin-bottom: 100px;
 }
 
@@ -524,23 +525,6 @@
   font-size: 22px;
 }
 
-/*.scene{
-  width: 30%;
-  height: 240px;
-  margin: 0 1.4%;
-  border-radius: 50%;
-  border: 1px solid red;
-  position: relative;
-}
-
-.scene_inner{
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
-  width: 100%;
-  text-align: center;
-}*/
-
 
 
 .kuwasikuha_wrapper p{
@@ -580,13 +564,13 @@
   margin-bottom: 0;
   font-weight: bold;
   font-size: 22px;
-}
+}/*
 
 
 
 
 
-@media(max-width: 670px){
+/*@media(max-width: 670px){
   .pc{
     display: none;
   }
@@ -683,7 +667,7 @@
     font-size: 23px;
   }
 
-  .third_image_wrapper img{
+  .seruraito_image_wrapper img{
     width: 100%;
   }
 
@@ -765,5 +749,607 @@
   .first_section_wrapper p,
   .second_section_wrapper p{
     font-size: 0.8rem;
+  }
+}
+*/
+
+
+body{
+  margin: 0;
+  font-family: 'Kosugi', sans-serif;
+}
+
+.content_wrapper{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.content_inner{
+  width: 72%;
+}
+
+.show_second_container{
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.title{
+  text-align: center;
+}
+
+.first_section_container,
+.second_section_container{
+  padding-top: 20px;
+}
+
+.first_section_wrapper,
+.second_section_wrapper{
+  display: flex;
+  margin-right: 2%;
+}
+
+.second_span{
+  font-size: 23px;
+  font-weight: bold;
+}
+
+
+
+.first_section h2,
+.forth_section h2,
+.fee_wrapper h2{
+  text-align: center;
+  font-size: 30px;
+}
+
+.h2_mobile{
+  display: none;
+}
+
+.forth_section h2,
+.fee_wrapper h2{
+  margin-top: 100px;
+}
+
+.first_section_image_wrapper,
+.second_section_image_wrapper{
+  width: 40%;
+  height: 230px;
+  margin-left: 10%;
+  text-align: center;
+  position: relative;
+}
+
+.first_section_image_wrapper img,
+.second_section_image_wrapper img{
+  width: auto;
+  height: 80%;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.first_section_text_wrapper,
+.second_section_text_wrapper{
+  width: 40%;
+  margin-right: 10%;
+  text-align: center;
+  position: relative;
+  font-size: 23px;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+  background: #ffe2e2;
+}
+
+.first_section_wrapper p,
+.second_section_wrapper p{
+  width: 95%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.first_section_second .first_section_image_wrapper,
+.second_section_second .second_section_image_wrapper{
+  margin-left: 0;
+  margin-right: 10%;
+}
+
+.first_section_second .first_section_text_wrapper,
+.second_section_second .second_section_text_wrapper{
+  margin-left: 10%;
+  margin-right: 0;
+}
+
+.seruraito_image_wrapper img{
+  width: 55%;
+}
+
+.side_wrapper{
+  width: 25%;
+  margin-left: 3%;
+}
+
+.side_inner,
+.side_inner_Vertical{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.side_inner img{
+  width: 100%;
+}
+
+.graph_text{
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.graph_wrapper{
+  margin-bottom: 80px;
+}
+
+.graph_inner{
+  width: 45%;
+  margin: 0 2.5%
+}
+
+.graph_inner p{
+  text-align: center;
+}
+
+.graph_inner img{
+  width: 100%;
+}
+
+.scene_wrapper{
+  margin: 30px 0 50px 0;
+}
+
+.scene_content_wrapper{
+  display: flex;
+}
+
+.scene_content_wrapper p{
+  margin: 0px;
+}
+
+
+.scene{
+  width: 30%;
+  margin: 0 1.5%;
+}
+
+.scene_text{
+  font-size: 23px;
+}
+
+.scene_inner{
+  height: 230px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+  background: #fffafa;
+}
+
+.scene_inner i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.1;
+}
+
+.scene_content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  text-align: center;
+  font-size: 22px;
+}
+
+.fee_introduction_wrapper{
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.fee_introduction_inner{
+  border-radius: 20px;
+  width: 70%;
+  padding: 5% 0;
+  text-align: center;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .5);
+  background: #ffe2e2;
+}
+
+.breakdown_wrapper{
+  margin-top: 30px;
+}
+
+.breakdown_wrapper p{
+  margin: 0 0 10px 0;
+}
+
+.breakdown_title{
+  font-size: 18px;
+}
+
+.fee_warning{
+  font-size: 12px;
+}
+
+.fee_text{
+  text-decoration: underline;
+}
+
+.fee_high{
+  background: linear-gradient(-10deg, transparent, transparent 45%, black 40%, black 50%, transparent 51%, transparent);
+}
+
+.fee_low{
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.fee_low_sub{
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.benefits_container{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.benefit_container_text span{
+  text-decoration: underline;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.benefits_inner{
+  display: flex;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .5);
+  background: #fffafa;
+  border-radius: 20px;
+  padding: 20px 10px;
+  width: 80%;
+  margin: 20px 0 0;
+}
+
+
+.benefit_point_number{
+  font-size: 30px;
+  margin-top: 22px !important;
+}
+
+.benefit_content_wrapper{
+  width: 80%;
+  text-align: left;
+}
+
+.benefit_content_inner{
+  font-size: 1.3rem;
+  color: #f7c873;
+  font-weight: bold;
+}
+
+.benefit_content_sub{
+  font-size: 15px;
+}
+
+.benefits_wrapper p{
+  margin: 10px 0;
+}
+
+.solution_wrapper{
+  margin-top: 80px;
+}
+
+.marker{
+  background: linear-gradient(transparent 0%, #fcea90 0%);
+  font-weight: bold;
+}
+
+.fee_marker{
+  background: linear-gradient(transparent 0%, #fcea90 0%);
+  font-weight: bold;
+}
+
+.font_size{
+  font-size: 23px;
+  color: #f25d9c;
+}
+
+.bold{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.arrow{
+
+}
+
+.guid{
+  margin-top: 30px;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+.ad_wrapper{
+
+}
+
+.ad_wrapper a{
+  display: inline-block;
+  padding: 1.5em 8em;
+  text-decoration: none;
+  background: #f25d9c;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #b61aae;
+  border-radius: 3px;
+}
+
+.ad_wrapper a:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+.ad_wrapper_img{
+  margin-top: 30px;
+}
+
+.offer_wrapper{
+  margin-top: 80px;
+}
+
+.offer_inner{
+  margin-top: 50px;
+}
+
+.offer_inner p a{
+  font-size: 20px;
+}
+
+.show_point_wrapper{
+  background: #ffe2e2;
+  width: 65%;;
+  padding: 50px 0;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .5);
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.show_point_wrapper h3{
+  margin: 0;
+}
+
+.footer_wrapper{
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .5);
+  background: white;
+  line-height: 60px;
+}
+
+.footer_wrapper p{
+  margin: 0;
+  text-align: center;
+}
+
+.action_wrapper{
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.line_height{
+  line-height: 2.4;
+}
+
+.cabitation_wrapper{
+  margin-top: 50px;
+}
+
+.cabitation_image_wrapper,
+.go_image_wrapper{
+  width: 60%;
+}
+
+.cabitation_image_wrapper img,
+.go_image_wrapper img{
+  width: 100%;
+}
+
+.red{
+  color: #ea5455;
+}
+
+.offer_wrapper h2,
+.fee_introduction_wrapper h2{
+  padding: 30px 2%;
+  background: #fffafa;
+}
+
+
+
+
+
+
+@media(max-width: 670px){
+  .first_section{
+    font-size: 18px;
+  }
+
+  .first_section h2{
+    font-size: 25px;
+  }
+
+  .side_wrapper{
+    display: none;
+  }
+
+  .content_wrapper{
+    width: 95%;
+  }
+
+  .content_inner{
+    width: 100%;
+  }
+
+  .first_section_image_wrapper,
+  .second_section_image_wrapper{
+    width: 50%;
+    height: 150px;
+    margin-left: 0%;
+  }
+
+  .first_section_text_wrapper,
+  .second_section_text_wrapper{
+    width: 50%;
+    margin-right: 0%;
+    font-size: 15px;
+  }
+
+  .first_section_second .first_section_image_wrapper,
+  .second_section_second .second_section_image_wrapper{
+    margin-right: 0%;
+  }
+
+  .first_section_second .first_section_text_wrapper,
+  .second_section_second .second_section_text_wrapper{
+    margin-left: 0%;
+  }
+
+  .first_section_image_wrapper img,
+  .second_section_image_wrapper img{
+
+  }
+
+  .first_section_wrapper,
+  .second_section_wrapper{
+    margin-right: 0;
+  }
+
+  .fee_introduction_wrapper{
+    width: 100%;
+  }
+
+  .show_point_wrapper{
+    width: 100%;
+  }
+
+  .show_title_inner{
+    bottom: -80px;
+    right: 0%;
+    padding: 20px 25px;
+  }
+
+  .show_title_inner p{
+    font-size: 0.9rem !important;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .show_title_wrapper p{
+    font-size: 1.2rem;
+  }
+
+  .benefits_inner{
+    width: 95%;
+  }
+
+  .benefits_point_wrapper{
+    width: 15%;
+  }
+
+  .benefit_content_wrapper{
+    width: 85%;
+  }
+
+  .review_modal{
+    width: 98%;
+  }
+
+  .scene_content_wrapper{
+    display: block;
+  }
+
+  .scene{
+    width: 90%;
+    margin: 30px auto;
+  }
+
+  .scene_inner{
+    height: 250px;
+  }
+
+  .guid_wrapper{
+    width: 80%;
+  }
+
+  .guid_wrapper p{
+    margin: 0;
+  }
+
+  .second_section .ad_wrapper{
+    margin-bottom:  10px;
+  }
+
+  .first_section_wrapper p,
+  .second_section_wrapper p{
+    font-size: 0.8rem;
+  }
+
+  .seruraito_image_wrapper img{
+    width: 100%;
+  }
+
+  .graph_wrapper{
+    display: block;
+  }
+
+  .graph_inner{
+    width: 90%;
+    margin: 30px auto 0;
+  }
+
+  .ad_wrapper{
+    text-align: center;
+  }
+
+  .show_point_wrapper{
+    padding: 50px 0 30px;
+  }
+
+  .ad_wrapper_img{
+    text-align: center;
+  }
+
+  .fee_introduction_inner{
+    width: 100%;
+  }
+
+  .cabitation_image_wrapper,
+  .go_image_wrapper{
+    width: 100%;
+  }
+
+  .benefit_container_text{
+    text-align: center;
   }
 }
