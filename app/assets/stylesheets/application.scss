@@ -6,6 +6,7 @@
  @import 'font-awesome-sprockets';
  @import 'font-awesome';
  @import url('https://fonts.googleapis.com/css2?family=Kosugi&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
 
 
  /*body{
@@ -756,18 +757,29 @@
 
 body{
   margin: 0;
-  font-family: 'Kosugi', sans-serif;
-  background-image: image-url("background.png");
+  font-family: '凸版文久見出しゴシック', sans-serif;
+  /*background-image: image-url("background.png");*/
+  font-size: 20px;
+  background: #ffe9e3;
 }
 
 .content_wrapper{
   display: flex;
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
 }
 
 .content_inner{
-  width: 72%;
+  width: 100%;
+  text-align: center;
+}
+
+.top_image_wrapper{
+  width: 100%;
+}
+
+.top_image_wrapper img{
+  width: 100%;
 }
 
 .show_second_container{
@@ -801,7 +813,15 @@ body{
 .forth_section h2,
 .fee_wrapper h2{
   text-align: center;
-  font-size: 30px;
+  /*font-size: 30px;*/
+}
+
+.fee_image{
+  width: 100%;
+}
+
+.fee_image img{
+  width: 100%;
 }
 
 .h2_mobile{
@@ -815,9 +835,9 @@ body{
 
 .first_section_image_wrapper,
 .second_section_image_wrapper{
-  width: 40%;
+  width: 50%;
   height: 230px;
-  margin-left: 10%;
+  /*margin-left: 10%;*/
   text-align: center;
   position: relative;
 }
@@ -834,14 +854,14 @@ body{
 
 .first_section_text_wrapper,
 .second_section_text_wrapper{
-  width: 40%;
-  margin-right: 10%;
+  width: 50%;
+  /*margin-right: 10%;*/
   text-align: center;
   position: relative;
-  font-size: 23px;
+  /*font-size: 23px;*/
   border-radius: 20px;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
-  background: #ffe2e2;
+  /*box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);*/
+  border: 1px solid black;
 }
 
 .first_section_wrapper p,
@@ -857,24 +877,24 @@ body{
 
 .first_section_second .first_section_image_wrapper,
 .second_section_second .second_section_image_wrapper{
-  margin-left: 0;
-  margin-right: 10%;
+  /*margin-left: 0;
+  margin-right: 10%;*/
 }
 
 .first_section_second .first_section_text_wrapper,
 .second_section_second .second_section_text_wrapper{
-  margin-left: 10%;
-  margin-right: 0;
+  /*margin-left: 10%;
+  margin-right: 0;*/
 }
 
 .seruraito_image_wrapper img{
-  width: 55%;
+  width: 100%;
 }
 
-.side_wrapper{
+/*.side_wrapper{
   width: 25%;
   margin-left: 3%;
-}
+}*/
 
 .side_inner,
 .side_inner_Vertical{
@@ -896,8 +916,8 @@ body{
 }
 
 .graph_inner{
-  width: 45%;
-  margin: 0 2.5%
+  width: 80%;
+  margin: 0 auto;
 }
 
 .graph_inner p{
@@ -922,8 +942,7 @@ body{
 
 
 .scene{
-  width: 30%;
-  margin: 0 1.5%;
+  width: 33.3%;
 }
 
 .scene_text{
@@ -931,11 +950,11 @@ body{
 }
 
 .scene_inner{
-  height: 230px;
+  height: 270px;
   border-radius: 50%;
   position: relative;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
-  background: #fffafa;
+  /*box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);*/
+  background: white;
 }
 
 .scene_inner i{
@@ -963,11 +982,12 @@ body{
 
 .fee_introduction_inner{
   border-radius: 20px;
-  width: 70%;
+  width: 80%;
   padding: 5% 0;
   text-align: center;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .5);
-  background: #ffe2e2;
+  /*box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .5);*/
+  margin: 0 auto;
+  background: white;
 }
 
 .breakdown_wrapper{
@@ -1019,12 +1039,12 @@ body{
 
 .benefits_inner{
   display: flex;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .5);
-  background: #fffafa;
+  /*box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .5);*/
   border-radius: 20px;
   padding: 20px 10px;
-  width: 80%;
-  margin: 20px 0 0;
+  width: 95%;
+  margin: 20px auto 0;
+  background: white;
 }
 
 
@@ -1040,7 +1060,6 @@ body{
 
 .benefit_content_inner{
   font-size: 1.3rem;
-  color: #f7c873;
   font-weight: bold;
 }
 
@@ -1067,13 +1086,13 @@ body{
 }
 
 .font_size{
-  font-size: 23px;
+  /*font-size: 23px;*/
   color: #de3c3c;
 }
 
 .bold{
   font-weight: bold;
-  font-size: 20px;
+  /*font-size: 20px;*/
 }
 
 .underline{
@@ -1090,17 +1109,13 @@ body{
   margin-bottom: 0;
 }
 
-.ad_wrapper{
-
-}
-
 .ad_wrapper a{
   display: inline-block;
   padding: 1.5em 8em;
   text-decoration: none;
-  background: #f25d9c;/*ボタン色*/
+  background: gray;/*ボタン色*/
   color: #FFF;
-  border-bottom: solid 4px #680747;
+  border-bottom: solid 4px black;
   border-radius: 3px;
 }
 
@@ -1128,18 +1143,26 @@ body{
 }
 
 .show_point_wrapper{
-  background: #ffe2e2;
   width: 65%;;
-  padding: 50px 0;
+  padding: 50px 0 30px;
   border-radius: 20px;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .5);
+  /*box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .5);*/
   font-size: 1.2rem;
   text-align: center;
-  margin-bottom: 50px;
+  margin: 0 auto 50px;
+  border: 1px solid black;
 }
 
 .show_point_wrapper h3{
   margin: 0;
+}
+
+.show_point_image{
+  width: 100%;
+}
+
+.show_point_image img{
+  width: 100%;
 }
 
 .footer_wrapper{
@@ -1168,7 +1191,8 @@ body{
 
 .cabitation_image_wrapper,
 .go_image_wrapper{
-  width: 60%;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .cabitation_image_wrapper img,
@@ -1181,9 +1205,10 @@ body{
 }
 
 .offer_wrapper h2,
-.fee_introduction_wrapper h2{
-  padding: 30px 2%;
-  background: #fffafa;
+.fee_introduction_wrapper h2,
+.solution_inner h2{
+  padding: 20px 2%;
+  background: #ffc0d0;
 }
 
 .text{
@@ -1343,6 +1368,11 @@ body{
 
   .ad_wrapper_img{
     text-align: center;
+  }
+
+  .ad_wrapper a{
+    padding: 1rem 0;
+    width: 100%;
   }
 
   .fee_introduction_inner{
