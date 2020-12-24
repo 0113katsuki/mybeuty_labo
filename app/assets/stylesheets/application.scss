@@ -5,8 +5,8 @@
 
  @import 'font-awesome-sprockets';
  @import 'font-awesome';
- @import url('https://fonts.googleapis.com/css2?family=Kosugi&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+ /*@import url('https://fonts.googleapis.com/css2?family=Kosugi&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');*/
 
 
  /*body{
@@ -755,13 +755,23 @@
 */
 
 
+/*@font-face {
+  font-family: 'toppan';
+  src: url('font/ToppanBunkyu.ttf') format('truetype'),
+       url('font/ToppanBunkyu.otf') format('opentype'),
+       url('font/ToppanBunkyu.woff') format('woff');
+}*/
+
 body{
   margin: 0;
-  font-family: '凸版文久見出しゴシック', sans-serif;
+  font-family: 'Toppan Bunkyu Midashi Gothic'; font-weight: bold;
   /*background-image: image-url("background.png");*/
   font-size: 20px;
   background: #ffe9e3;
 }
+
+
+
 
 .content_wrapper{
   display: flex;
