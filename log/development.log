@@ -42471,3 +42471,1164 @@ Processing by BeautiesController#show_second as HTML
 Completed 200 OK in 43ms (Views: 42.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 19:46:21 +0900
+Started GET "/?__userAgent__=Google%20Pixel" for ::1 at 2020-12-26 19:46:21 +0900
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 19:46:21 +0900
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 19:46:21 +0900
+Processing by BeautiesController#show_second as HTML
+Processing by BeautiesController#show_second as HTML
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+  Parameters: {"__userAgent__"=>"iPhone"}
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Pixel"}
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (4826.2ms)
+  Rendered beauties/show_second.html.erb within layouts/application (4743.4ms)
+  Rendered beauties/show_second.html.erb within layouts/application (4585.5ms)
+  Rendered beauties/show_second.html.erb within layouts/application (4631.8ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 5032ms (Views: 5018.7ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 5024ms (Views: 5023.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 5024ms (Views: 5017.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 19:46:26 +0900
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 19:46:26 +0900
+Processing by BeautiesController#show_second as HTML
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 5047ms (Views: 5044.8ms | ActiveRecord: 0.0ms)
+
+
+  Rendering beauties/show_second.html.erb within layouts/application
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 19:46:26 +0900
+  Rendering beauties/show_second.html.erb within layouts/application
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (100.5ms)
+  Rendered beauties/show_second.html.erb within layouts/application (195.2ms)
+  Rendered beauties/show_second.html.erb within layouts/application (192.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 274ms (Views: 271.7ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 288ms (Views: 286.9ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 324ms (Views: 314.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 19:48:25 +0900
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 19:48:25 +0900
+Processing by BeautiesController#show_second as HTML
+Started GET "/?__userAgent__=Google%20Pixel" for ::1 at 2020-12-26 19:48:25 +0900
+  Parameters: {"__userAgent__"=>"iPhone"}
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 19:48:25 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+Processing by BeautiesController#show_second as HTML
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Parameters: {"__userAgent__"=>"Google Pixel"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (37.1ms)
+  Rendered beauties/show_second.html.erb within layouts/application (65.4ms)
+  Rendered beauties/show_second.html.erb within layouts/application (62.1ms)
+  Rendered beauties/show_second.html.erb within layouts/application (76.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 3770ms (Views: 3764.9ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 3776ms (Views: 3774.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 19:48:29 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 19:48:29 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 3805ms (Views: 3804.5ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 3840ms (Views: 3838.5ms | ActiveRecord: 0.0ms)
+
+
+  Rendered beauties/show_second.html.erb within layouts/application (60.0ms)
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 19:48:29 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (87.0ms)
+  Rendered beauties/show_second.html.erb within layouts/application (48.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 179ms (Views: 176.2ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 183ms (Views: 181.6ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 122ms (Views: 121.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 19:49:23 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+Started GET "/?__userAgent__=Google%20Pixel" for ::1 at 2020-12-26 19:49:23 +0900
+  Rendering beauties/show_second.html.erb within layouts/application
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 19:49:23 +0900
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 19:49:23 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Pixel"}
+Processing by BeautiesController#show_second as HTML
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (33.6ms)
+  Rendered beauties/show_second.html.erb within layouts/application (66.2ms)
+  Rendered beauties/show_second.html.erb within layouts/application (60.8ms)
+  Rendered beauties/show_second.html.erb within layouts/application (68.1ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 162ms (Views: 160.1ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 187ms (Views: 184.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 19:49:23 +0900
+Processing by BeautiesController#show_second as HTML
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Parameters: {"__userAgent__"=>"iPhone"}
+Completed 200 OK in 179ms (Views: 177.7ms | ActiveRecord: 0.0ms)
+
+
+  Rendering beauties/show_second.html.erb within layouts/application
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 19:49:23 +0900
+  Rendered layouts/_footer.html.erb (0.0ms)
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+Completed 200 OK in 213ms (Views: 211.6ms | ActiveRecord: 0.0ms)
+
+
+  Rendering beauties/show_second.html.erb within layouts/application
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 19:49:23 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (34.3ms)
+  Rendered beauties/show_second.html.erb within layouts/application (41.7ms)
+  Rendered beauties/show_second.html.erb within layouts/application (96.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 137ms (Views: 135.5ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 156ms (Views: 153.2ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 197ms (Views: 189.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-26 19:49:24 +0900
+Processing by BeautiesController#show_second as HTML
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (9.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 19:50:12 +0900
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 19:50:12 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+Started GET "/?__userAgent__=Google%20Pixel" for ::1 at 2020-12-26 19:50:12 +0900
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 19:50:12 +0900
+Processing by BeautiesController#show_second as HTML
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Pixel"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (44.1ms)
+  Rendered beauties/show_second.html.erb within layouts/application (45.6ms)
+  Rendered beauties/show_second.html.erb within layouts/application (41.4ms)
+  Rendered beauties/show_second.html.erb within layouts/application (40.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 153ms (Views: 149.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 19:50:13 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 171ms (Views: 167.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 19:50:13 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 193ms (Views: 190.6ms | ActiveRecord: 0.0ms)
+
+
+  Rendering beauties/show_second.html.erb within layouts/application
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 19:50:13 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 205ms (Views: 201.2ms | ActiveRecord: 0.0ms)
+
+
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (32.0ms)
+  Rendered beauties/show_second.html.erb within layouts/application (100.7ms)
+  Rendered beauties/show_second.html.erb within layouts/application (141.2ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 294ms (Views: 291.9ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 320ms (Views: 316.6ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 357ms (Views: 354.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-26 19:53:42 +0900
+Processing by BeautiesController#show_second as HTML
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (11.1ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 19:53:43 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 19:53:44 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+Started GET "/?__userAgent__=Google%20Pixel" for ::1 at 2020-12-26 19:53:44 +0900
+Processing by BeautiesController#show_second as HTML
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 19:53:44 +0900
+  Parameters: {"__userAgent__"=>"Google Pixel"}
+  Rendering beauties/show_second.html.erb within layouts/application
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (49.7ms)
+  Rendered beauties/show_second.html.erb within layouts/application (70.2ms)
+  Rendered beauties/show_second.html.erb within layouts/application (54.7ms)
+  Rendered beauties/show_second.html.erb within layouts/application (61.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 160ms (Views: 157.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 19:53:44 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 181ms (Views: 180.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendering beauties/show_second.html.erb within layouts/application
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 19:53:44 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 187ms (Views: 184.0ms | ActiveRecord: 0.0ms)
+
+
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 195ms (Views: 192.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 19:53:44 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (35.2ms)
+  Rendered beauties/show_second.html.erb within layouts/application (76.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 83ms (Views: 78.6ms | ActiveRecord: 0.0ms)
+
+
+  Rendered beauties/show_second.html.erb within layouts/application (60.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 151ms (Views: 148.2ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 132ms (Views: 131.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 19:55:43 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 19:55:43 +0900
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 19:55:43 +0900
+Started GET "/?__userAgent__=Google%20Pixel" for ::1 at 2020-12-26 19:55:43 +0900
+Processing by BeautiesController#show_second as HTML
+Processing by BeautiesController#show_second as HTML
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Parameters: {"__userAgent__"=>"Google Pixel"}
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (52.5ms)
+  Rendered beauties/show_second.html.erb within layouts/application (74.2ms)
+  Rendered beauties/show_second.html.erb within layouts/application (66.8ms)
+  Rendered beauties/show_second.html.erb within layouts/application (92.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 187ms (Views: 185.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 200ms (Views: 198.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 19:55:43 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 218ms (Views: 215.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 19:55:43 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 264ms (Views: 262.4ms | ActiveRecord: 0.0ms)
+
+
+  Rendering beauties/show_second.html.erb within layouts/application
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 19:55:43 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (44.4ms)
+  Rendered beauties/show_second.html.erb within layouts/application (42.7ms)
+  Rendered beauties/show_second.html.erb within layouts/application (36.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 133ms (Views: 129.1ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (1.2ms)
+Completed 200 OK in 173ms (Views: 166.6ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 174ms (Views: 172.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 20:02:51 +0900
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 20:02:51 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 20:02:51 +0900
+Started GET "/?__userAgent__=Google%20Pixel" for ::1 at 2020-12-26 20:02:51 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Rendering beauties/show_second.html.erb within layouts/application
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Pixel"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (451.2ms)
+  Rendered beauties/show_second.html.erb within layouts/application (471.7ms)
+  Rendered beauties/show_second.html.erb within layouts/application (485.5ms)
+  Rendered beauties/show_second.html.erb within layouts/application (476.1ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 681ms (Views: 679.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 20:02:52 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 754ms (Views: 750.0ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 827ms (Views: 823.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 20:02:52 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (74.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 928ms (Views: 921.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 20:02:52 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (29.7ms)
+  Rendered beauties/show_second.html.erb within layouts/application (259.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 210ms (Views: 208.8ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 392ms (Views: 389.9ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 164ms (Views: 162.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-26 20:03:40 +0900
+Processing by BeautiesController#show_second as HTML
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (11.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 56ms (Views: 54.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-26 20:04:33 +0900
+Processing by BeautiesController#show_second as HTML
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (14.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 1045ms (Views: 1044.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-26 20:05:20 +0900
+Processing by BeautiesController#show_second as HTML
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (24.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 77ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-26 20:05:40 +0900
+Processing by BeautiesController#show_second as HTML
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (20.7ms)
+  Rendered layouts/_footer.html.erb (1.7ms)
+Completed 200 OK in 71ms (Views: 68.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-26 20:05:46 +0900
+Processing by BeautiesController#show_second as HTML
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (10.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 33ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-26 20:05:52 +0900
+Processing by BeautiesController#show_second as HTML
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (11.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 39ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-26 20:06:05 +0900
+Processing by BeautiesController#show_second as HTML
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (14.2ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 39ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 20:06:10 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 20:06:10 +0900
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 20:06:10 +0900
+  Rendering beauties/show_second.html.erb within layouts/application
+Started GET "/?__userAgent__=Google%20Pixel" for ::1 at 2020-12-26 20:06:10 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Pixel"}
+Processing by BeautiesController#show_second as HTML
+  Rendering beauties/show_second.html.erb within layouts/application
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (68.0ms)
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (107.2ms)
+  Rendered beauties/show_second.html.erb within layouts/application (46.2ms)
+  Rendered beauties/show_second.html.erb within layouts/application (94.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 186ms (Views: 182.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 20:06:10 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+Completed 500 Internal Server Error in 232ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (can't add a new key into hash during iteration):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= favicon_link_tag('favicon.ico') %>
+     9:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    12:   </head>
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___87268169424161539_70304073413680'
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 396ms (Views: 376.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendered beauties/show_second.html.erb within layouts/application (208.0ms)
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 20:06:10 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 389ms (Views: 375.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 20:06:10 +0900
+Processing by BeautiesController#show_second as HTML
+  Rendering beauties/show_second.html.erb within layouts/application
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (57.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered beauties/show_second.html.erb within layouts/application (58.7ms)
+Completed 200 OK in 297ms (Views: 295.1ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 118ms (Views: 112.8ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 119ms (Views: 115.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 20:11:59 +0900
+Started GET "/?__userAgent__=Google%20Pixel" for ::1 at 2020-12-26 20:11:59 +0900
+Processing by BeautiesController#show_second as HTML
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 20:11:59 +0900
+  Parameters: {"__userAgent__"=>"iPhone"}
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 20:11:59 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Pixel"}
+  Rendering beauties/show_second.html.erb within layouts/application
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (97.9ms)
+  Rendered beauties/show_second.html.erb within layouts/application (99.7ms)
+  Rendered beauties/show_second.html.erb within layouts/application (90.0ms)
+  Rendered beauties/show_second.html.erb within layouts/application (110.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 3991ms (Views: 3987.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 20:12:03 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 4019ms (Views: 4014.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 20:12:03 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 4114ms (Views: 4112.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (141.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 4181ms (Views: 4178.9ms | ActiveRecord: 0.0ms)
+
+
+  Rendered beauties/show_second.html.erb within layouts/application (51.4ms)
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 20:12:03 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 337ms (Views: 334.9ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 447ms (Views: 444.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendered beauties/show_second.html.erb within layouts/application (276.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 322ms (Views: 317.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 20:13:47 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 20:13:47 +0900
+Started GET "/?__userAgent__=Google%20Pixel" for ::1 at 2020-12-26 20:13:47 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+Processing by BeautiesController#show_second as HTML
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 20:13:47 +0900
+  Rendering beauties/show_second.html.erb within layouts/application
+  Parameters: {"__userAgent__"=>"Google Pixel"}
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (51.4ms)
+  Rendered beauties/show_second.html.erb within layouts/application (61.8ms)
+  Rendered beauties/show_second.html.erb within layouts/application (53.5ms)
+  Rendered beauties/show_second.html.erb within layouts/application (65.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 3527ms (Views: 3526.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 20:13:50 +0900
+  Rendered layouts/_footer.html.erb (0.2ms)
+Processing by BeautiesController#show_second as HTML
+Completed 200 OK in 3543ms (Views: 3542.1ms | ActiveRecord: 0.0ms)
+
+
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 20:13:50 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 3567ms (Views: 3563.6ms | ActiveRecord: 0.0ms)
+
+
+  Rendered beauties/show_second.html.erb within layouts/application (51.9ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 3616ms (Views: 3606.7ms | ActiveRecord: 0.0ms)
+
+
+  Rendered beauties/show_second.html.erb within layouts/application (83.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 176ms (Views: 173.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 20:13:51 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (20.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 56ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 428ms (Views: 424.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 20:17:00 +0900
+Started GET "/?__userAgent__=Google%20Pixel" for ::1 at 2020-12-26 20:17:00 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Pixel"}
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 20:17:00 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 20:17:00 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (65.6ms)
+  Rendered beauties/show_second.html.erb within layouts/application (100.0ms)
+  Rendered beauties/show_second.html.erb within layouts/application (83.4ms)
+  Rendered beauties/show_second.html.erb within layouts/application (101.8ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 3645ms (Views: 3642.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 20:17:04 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 3657ms (Views: 3654.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 20:17:04 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendering beauties/show_second.html.erb within layouts/application
+Completed 200 OK in 3656ms (Views: 3652.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 20:17:04 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (84.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 3768ms (Views: 3758.4ms | ActiveRecord: 0.0ms)
+
+
+  Rendered beauties/show_second.html.erb within layouts/application (128.3ms)
+  Rendered beauties/show_second.html.erb within layouts/application (125.6ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 271ms (Views: 269.7ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 300ms (Views: 299.0ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 290ms (Views: 284.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 20:17:39 +0900
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 20:17:39 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+Processing by BeautiesController#show_second as HTML
+Started GET "/?__userAgent__=Google%20Pixel" for ::1 at 2020-12-26 20:17:39 +0900
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 20:17:39 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Pixel"}
+  Rendering beauties/show_second.html.erb within layouts/application
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (73.6ms)
+  Rendered beauties/show_second.html.erb within layouts/application (45.1ms)
+  Rendered beauties/show_second.html.erb within layouts/application (75.9ms)
+  Rendered beauties/show_second.html.erb within layouts/application (70.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 269ms (Views: 265.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 20:17:39 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 265ms (Views: 259.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 20:17:39 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 316ms (Views: 310.1ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 313ms (Views: 297.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 20:17:39 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (52.6ms)
+  Rendered beauties/show_second.html.erb within layouts/application (84.0ms)
+  Rendered beauties/show_second.html.erb within layouts/application (93.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 174ms (Views: 169.8ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 200ms (Views: 195.6ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 192ms (Views: 190.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 20:18:34 +0900
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 20:18:34 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+Processing by BeautiesController#show_second as HTML
+Started GET "/?__userAgent__=Google%20Pixel" for ::1 at 2020-12-26 20:18:34 +0900
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 20:18:34 +0900
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Pixel"}
+Processing by BeautiesController#show_second as HTML
+  Rendering beauties/show_second.html.erb within layouts/application
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (44.0ms)
+  Rendered beauties/show_second.html.erb within layouts/application (61.4ms)
+  Rendered beauties/show_second.html.erb within layouts/application (65.6ms)
+  Rendered beauties/show_second.html.erb within layouts/application (66.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 114ms (Views: 111.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 20:18:34 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 173ms (Views: 170.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 20:18:34 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 198ms (Views: 195.9ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 211ms (Views: 208.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 20:18:34 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (129.8ms)
+  Rendered beauties/show_second.html.erb within layouts/application (71.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 122ms (Views: 120.7ms | ActiveRecord: 0.0ms)
+
+
+  Rendered beauties/show_second.html.erb within layouts/application (81.3ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 233ms (Views: 231.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 151ms (Views: 149.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 20:18:48 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 20:18:48 +0900
+Started GET "/?__userAgent__=Google%20Pixel" for ::1 at 2020-12-26 20:18:48 +0900
+Processing by BeautiesController#show_second as HTML
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 20:18:48 +0900
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+Processing by BeautiesController#show_second as HTML
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Parameters: {"__userAgent__"=>"Google Pixel"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (52.7ms)
+  Rendered beauties/show_second.html.erb within layouts/application (51.3ms)
+  Rendered beauties/show_second.html.erb within layouts/application (54.4ms)
+  Rendered beauties/show_second.html.erb within layouts/application (67.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 147ms (Views: 145.9ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 155ms (Views: 152.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 20:18:49 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 189ms (Views: 186.5ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 219ms (Views: 216.9ms | ActiveRecord: 0.0ms)
+
+
+  Rendered beauties/show_second.html.erb within layouts/application (46.2ms)
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 20:18:49 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 20:18:49 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (33.3ms)
+  Rendered beauties/show_second.html.erb within layouts/application (53.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 159ms (Views: 157.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 135ms (Views: 115.6ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 136ms (Views: 133.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 20:35:01 +0900
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 20:35:01 +0900
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 20:35:01 +0900
+Started GET "/?__userAgent__=Google%20Pixel" for ::1 at 2020-12-26 20:35:01 +0900
+Processing by BeautiesController#show_second as HTML
+Processing by BeautiesController#show_second as HTML
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+  Parameters: {"__userAgent__"=>"iPhone"}
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Parameters: {"__userAgent__"=>"Google Pixel"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (125.3ms)
+  Rendered beauties/show_second.html.erb within layouts/application (130.4ms)
+  Rendered beauties/show_second.html.erb within layouts/application (123.4ms)
+  Rendered beauties/show_second.html.erb within layouts/application (122.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 319ms (Views: 317.8ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 334ms (Views: 330.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 20:35:02 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 349ms (Views: 345.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendering beauties/show_second.html.erb within layouts/application
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 20:35:02 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 375ms (Views: 368.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 20:35:02 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (55.7ms)
+  Rendered beauties/show_second.html.erb within layouts/application (83.8ms)
+  Rendered beauties/show_second.html.erb within layouts/application (98.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 179ms (Views: 177.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 153ms (Views: 152.2ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 214ms (Views: 209.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 20:35:44 +0900
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 20:35:44 +0900
+Processing by BeautiesController#show_second as HTML
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+  Parameters: {"__userAgent__"=>"iPhone"}
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 20:35:44 +0900
+Started GET "/?__userAgent__=Google%20Pixel" for ::1 at 2020-12-26 20:35:44 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Pixel"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (54.0ms)
+  Rendered beauties/show_second.html.erb within layouts/application (76.7ms)
+  Rendered beauties/show_second.html.erb within layouts/application (80.3ms)
+  Rendered beauties/show_second.html.erb within layouts/application (96.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 152ms (Views: 150.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 20:35:44 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 190ms (Views: 186.1ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 216ms (Views: 212.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 20:35:44 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 248ms (Views: 245.1ms | ActiveRecord: 0.0ms)
+
+
+  Rendered beauties/show_second.html.erb within layouts/application (76.8ms)
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 20:35:44 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 145ms (Views: 143.8ms | ActiveRecord: 0.0ms)
+
+
+  Rendered beauties/show_second.html.erb within layouts/application (41.9ms)
+  Rendered beauties/show_second.html.erb within layouts/application (91.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 146ms (Views: 144.7ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 107ms (Views: 106.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 20:38:35 +0900
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 20:38:35 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 20:38:35 +0900
+Started GET "/?__userAgent__=Google%20Pixel" for ::1 at 2020-12-26 20:38:35 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+Processing by BeautiesController#show_second as HTML
+  Rendering beauties/show_second.html.erb within layouts/application
+  Parameters: {"__userAgent__"=>"Google Pixel"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (56.0ms)
+  Rendered beauties/show_second.html.erb within layouts/application (64.6ms)
+  Rendered beauties/show_second.html.erb within layouts/application (64.5ms)
+  Rendered beauties/show_second.html.erb within layouts/application (70.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 3384ms (Views: 3382.4ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 3397ms (Views: 3395.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=iPhone" for ::1 at 2020-12-26 20:38:39 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"iPhone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (15.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 3441ms (Views: 3438.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=Samsung%20Phone" for ::1 at 2020-12-26 20:38:39 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Samsung Phone"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 3451ms (Views: 3447.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?__userAgent__=Google%20Chrome" for ::1 at 2020-12-26 20:38:39 +0900
+Processing by BeautiesController#show_second as HTML
+  Parameters: {"__userAgent__"=>"Google Chrome"}
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (26.1ms)
+  Rendered beauties/show_second.html.erb within layouts/application (66.3ms)
+  Rendered layouts/_footer.html.erb (2.6ms)
+Completed 200 OK in 144ms (Views: 143.4ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 121ms (Views: 120.0ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 152ms (Views: 151.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-26 20:41:38 +0900
+Processing by BeautiesController#show_second as HTML
+  Rendering beauties/show_second.html.erb within layouts/application
+  Rendered beauties/show_second.html.erb within layouts/application (18.5ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 52ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+

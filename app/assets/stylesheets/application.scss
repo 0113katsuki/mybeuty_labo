@@ -62,12 +62,14 @@ body{
   border-right: 15px solid white;
 }
 
-.customer_image{
+.customera_image,
+.customerb_image{
   width: 15%;
   display: inline-block;
 }
 
-.customer_image img{
+.customera_image img,
+.customerb_image img{
   width: 100%;
 }
 
@@ -329,9 +331,26 @@ body{
   width: 80%;
   padding: 5% 0;
   text-align: center;
-  /*box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .5);*/
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .5);
   margin: 0 auto;
   background: white;
+}
+
+.fee_introduction_inner h2 img{
+  width: 10%;
+}
+
+.fee_introduction_inner h2{
+  margin-bottom: 10px;
+}
+
+.fee_text{
+  margin: 0 auto;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 45%;
+  opacity: 0.7;
+  font-size: 15px;
 }
 
 .breakdown_wrapper{
@@ -348,10 +367,6 @@ body{
 
 .fee_warning{
   font-size: 12px;
-}
-
-.fee_text{
-  text-decoration: underline;
 }
 
 .fee_high{
@@ -405,6 +420,7 @@ body{
 .benefit_content_inner{
   font-size: 1.3rem;
   font-weight: bold;
+  color: #facf5a;
 }
 
 .benefit_content_sub{
@@ -478,9 +494,6 @@ body{
   margin-top: 50px;
 }
 
-.offer_inner{
-  margin-top: 50px;
-}
 
 .offer_inner p a{
   font-size: 20px;
@@ -727,21 +740,26 @@ body{
 
   .right,
   .left{
-    max-width: 60%;
+    max-width: 65%;
     vertical-align: middle;
     font-size: 17px;
   }
 
   .right{
-    margin-right: 2%;
+    margin-right: 5%;
   }
 
   .left{
-    margin-left: 2%;
+    margin-left: 5%;
   }
 
-  .customer_image{
-    width: 28%;
+  .customera_image{
+    width: 23%;
+    vertical-align: middle;
+  }
+
+  .customerb_image{
+    width: 20%;
     vertical-align: middle;
   }
 
