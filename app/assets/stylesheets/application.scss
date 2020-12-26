@@ -297,14 +297,16 @@ body{
   position: relative;
   /*box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);*/
   background: white;
+  overflow: hidden;
 }
 
-.scene_inner i{
+.scene_inner img{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  opacity: 0.1;
+  opacity: 0.5;
+  height: 100%;
 }
 
 .scene_content{
@@ -723,15 +725,18 @@ body{
     text-align: center;
   }
 
-  .right{
+  .right,
+  .left{
     max-width: 60%;
     vertical-align: middle;
+    font-size: 17px;
+  }
+
+  .right{
     margin-right: 2%;
   }
 
   .left{
-    max-width: 60%;
-    vertical-align: middle;
     margin-left: 2%;
   }
 
