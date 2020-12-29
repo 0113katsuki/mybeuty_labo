@@ -6,4 +6,7 @@ class BeautiesController < ApplicationController
   def show_second
   end
 
+  def show_third
+  end
+
 end

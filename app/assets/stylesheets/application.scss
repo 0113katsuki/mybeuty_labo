@@ -14,11 +14,10 @@
 
 body{
   margin: 0;
-  font-family: 'toppan';
+  /*font-family: 'toppan';*/
   /*font-family: 'Toppan Bunkyu Midashi Gothic'; font-weight: bold;*/
   /*background-image: image-url("background.png");*/
   font-size: 20px;
-  background: #ffe9e3;
 }
 
 .right,
@@ -70,6 +69,10 @@ body{
 
 .customera_image img,
 .customerb_image img{
+  width: 100%;
+}
+
+.image img{
   width: 100%;
 }
 
