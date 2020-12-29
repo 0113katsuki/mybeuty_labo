@@ -56949,3 +56949,35 @@ Completed 200 OK in 164ms (Views: 163.0ms | ActiveRecord: 0.0ms)
 Completed 200 OK in 120ms (Views: 118.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2020-12-29 17:57:45 +0900
+Processing by BeautiesController#show_third as HTML
+  Rendering beauties/show_third.html.erb within layouts/application
+  Rendered beauties/show_third.html.erb within layouts/application (1590.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 1687ms (Views: 1679.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-29 17:57:55 +0900
+Processing by BeautiesController#show_third as HTML
+  Rendering beauties/show_third.html.erb within layouts/application
+  Rendered beauties/show_third.html.erb within layouts/application (6.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 963ms (Views: 961.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-29 17:58:37 +0900
+Processing by BeautiesController#show_third as HTML
+  Rendering beauties/show_third.html.erb within layouts/application
+  Rendered beauties/show_third.html.erb within layouts/application (7.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 919ms (Views: 918.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-29 17:58:42 +0900
+Processing by BeautiesController#show_third as HTML
+  Rendering beauties/show_third.html.erb within layouts/application
+  Rendered beauties/show_third.html.erb within layouts/application (21.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 69ms (Views: 67.8ms | ActiveRecord: 0.0ms)
+
+

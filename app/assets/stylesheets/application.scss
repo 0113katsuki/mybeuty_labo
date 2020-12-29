@@ -10,16 +10,17 @@
 
 @font-face {
   font-family: 'toppan';
-  src: asset_url('ToppanBunkyuMidashiGothicStdN-ExtraBold.otf') format('truetype');
+  /*src: asset_url('ToppanBunkyuMidashiGothicStdN-ExtraBold.otf') format('truetype');*/
        /*src: url('fonts/MPLUSRounded1c-Medium.ttf') format('truetype');*/
+  src: asset_url('Kosugi-Regular.ttf') format('truetype');
 }
 
 body{
   margin: 0;
-  /*font-family: 'toppan';*/
+  font-family: 'toppan';
   /*font-family: 'Toppan Bunkyu Midashi Gothic'; font-weight: bold;*/
   /*background-image: image-url("background.png");*/
-  font-family: 'Sawarabi Gothic', sans-serif;
+  /*font-family: 'Sawarabi Gothic', sans-serif;*/
   font-size: 20px;
 }
 
