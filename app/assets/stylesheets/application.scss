@@ -312,7 +312,7 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0.5;
-  width: 100%;
+  height: 100%;
 }
 
 .scene_content{
@@ -677,6 +677,11 @@ body{
 
   .scene_inner{
     height: 250px;
+  }
+
+  .scene_inner img{
+    height: auto;
+    width: 100%;
   }
 
   .guid_wrapper{
